@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FictureSection from './components/FictureSection';
 import WorkSection from './components/WorkSection';
+import ServiceSection from './components/ServiceSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import Footer from './components/Footer';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +16,9 @@ createRoot(document.getElementById('root')).render(
       <HeroSection />
       <FictureSection /> 
       <WorkSection />   
+      <ServiceSection /> 
+      <TestimonialsSection />
+      <Footer />
     </div>
   </StrictMode>,
 )

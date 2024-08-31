@@ -19,7 +19,7 @@ export const navItems = [
   { label: "Testimonials", href: "#" },
 ];
 
-export const testimonials = [
+export const companyes = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
@@ -120,7 +120,7 @@ export const checklistItems = [
   },
 ];
 
-export const pricingOptions = [
+export const serviceOptions = [
   {
     title: "Free",
     price: "$0",
