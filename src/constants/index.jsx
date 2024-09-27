@@ -16,7 +16,7 @@ export const navItems = [
   { label: "Servicios", href: "#" },
   { label: "Desarrollo", href: "#" },
   { label: "Planes", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Empresas", href: "#" },
 ];
 
 export const companyes = [
@@ -61,37 +61,37 @@ export const companyes = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Asistencia Tecnica",
     description:
       "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Asesoria informática",
     description:
       "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Desarrollo Web",
     description:
       "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Documentación Tecnica",
     description:
       "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "La Nube",
     description:
       "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Emails institucionales",
     description:
       "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
   },
@@ -99,22 +99,22 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Landing Page",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
-    title: "Review code without worry",
+    title: "Plataforma de formación",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Bots para Whatsapp",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
-    title: "Share work in minutes",
+    title: "Desarrollos Personalizados",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
@@ -125,8 +125,8 @@ export const serviceOptions = [
     title: "Inicial",
     price: "$0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
+      "Asistencia Tecnica",
+      "Asesoria informática",
       "Web Analytics",
       "Private Mode",
     ],
