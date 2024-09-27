@@ -21,7 +21,7 @@ const Navbar = () => {
                         <span className="text-xl mt-1 mx-1 tracking-tighter"> ZimTech </span>
                     </div>
                     <ul className="hidden lg:flex ml-14 space-x-12">
-                        {navItems.map((item, index) => (
+                        { navItems.map((item, index) => (
                             <li key={index} > 
                                 <a href={item.href}>{ item.label }</a>
                             </li>
@@ -31,11 +31,11 @@ const Navbar = () => {
                         <a href="#" className="py-2 px-3 border rounded-md">
                             Ingresar
                         </a>
-                        <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"> Soy Empresa </a>
+                        <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md"> Soy Empresa </a>
                     </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={toggleNavbar}>
-                            { mobileDrawerOpen ? <X /> : <Menu />}
+                            { mobileDrawerOpen ? <X /> : <Menu /> }
                         </button>
                     </div>
                 </div>

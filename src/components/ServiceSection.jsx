@@ -16,7 +16,7 @@ const ServiceSection = () => {
                             <p className="text-4xl mb-8">
                                 {service.title}
                                 {service.title === "Pro" && (
-                                    <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl ml-2">
+                                    <span className="bg-gradient-to-r from-blue-500 to-cyan-400 text-transparent bg-clip-text text-xl ml-2">
                                         (Mas Popular)
                                     </span>
                                 )}
@@ -34,8 +34,8 @@ const ServiceSection = () => {
                                 ))}
                             </ul>
                             <a href="#" className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl
-                                hover:bg-orange-900 border border-orange-900 rounded-lg transition duration-200">
-                                Subscribe
+                                hover:bg-blue-900 border border-blue-900 rounded-lg transition duration-200">
+                                Mas información
                             </a>
                         </div>
                     </div>
